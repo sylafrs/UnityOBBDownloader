@@ -27,7 +27,7 @@ public class LaunchObb : MonoBehaviour {
 
 	private IEnumerator LoadObbEnum()
 	{
-#if !LOL || !UNITY_EDITOR && UNITY_ANDROID && USE_OBB
+#if !UNITY_EDITOR && UNITY_ANDROID && USE_OBB
 
 		if(UseObb)
 		{
